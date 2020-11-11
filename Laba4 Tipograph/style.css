@@ -1,0 +1,558 @@
+/* Гайдук Сергей Сергеевич группа КН-19-1 */
+* {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.main {
+  width: 100%;
+  height: 3498px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 83px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 87px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3411px;
+  left: 0px;
+  overflow: hidden;
+}
+.footer_text {
+  width: 182px;
+  color: rgba(76,76,76,1);
+  position: absolute;
+  top: 3444px;
+  left: 840px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.nav_title {
+  width: 193px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 29px;
+  left: 200px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+  text-transform: uppercase;
+}
+.nav_creepy {
+  width: 62px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 32px;
+  left: 950px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.nav_cheerful {
+  width: 100px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 29px;
+  left: 1085px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.nav_evil {
+  width: 100px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 29px;
+  left: 1220px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.nav_romantic {
+  width: 130px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 29px;
+  left: 1330px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.nav_business {
+  width: 100px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 29px;
+  left: 1500px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.creepy_page {
+  width: 100%;
+  height: 648px;
+  background: rgba(4,4,16,1);
+  opacity: 1;
+  position: absolute;
+  top: 83px;
+  left: 0px;
+  overflow: hidden;
+}
+.creepy_title {
+  width: 389px;
+  line-height: 160%;
+  color: #fff;
+  position: absolute;
+  top: 246px;
+  left: 1000px;
+  font-family: 'Lora', serif;
+  font-weight: Medium;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.creepy_text_upper {
+  width: 400px;
+  line-height: 160%;
+  color: #fff;
+  position: absolute;
+  top: 340px;
+  left: 1000px;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.creepy_text_lower {
+  width: 400px;
+  line-height: 160%;
+  color: #fff;
+  position: absolute;
+  top: 481px;
+  left: 1000px;
+  font-family: 'Xanh Mono', monospace;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.creepy_branche {
+  width: 262px;
+  height: 180px;
+  background: url("img/creepy_branche.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  opacity: 1;
+  position: absolute;
+  left: 1640px;
+  top: 104px;
+  overflow: hidden;
+}
+.creepy_img {
+  width: 645px;
+  height: 648px;
+  background: url("img/intro.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 83px;
+  left: 0px;
+  overflow: hidden;
+}
+.cheerful_page {
+  width: 100%;
+  height: 735px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 731px;
+  left: 0px;
+  overflow: hidden;
+}
+.cheerful_title {
+  width: 603px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 886px;
+  left: 710px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.cheerful_text {
+  width: 500px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 986px;
+  left: 710px;
+  font-family: Architects Daughter;
+  font-weight: Regular;
+  font-size: 18px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: center;
+}
+.dog_left {
+  width: 292px;
+  height: 292px;
+  background: url("img/dog_left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1174px;
+  left: 1300px;
+  overflow: hidden;
+}
+.dog_center {
+  width: 458px;
+  height: 292px;
+  background: url("img/dog_center.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1174px;
+  left: 725px;
+  overflow: hidden;
+}
+.dog_right {
+  width: 458px;
+  height: 292px;
+  background: url("img/dog_right.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1174px;
+  left: 160px;
+  overflow: hidden;
+}
+.evil_page {
+  width: 100%;
+  height: 648px;
+  background: rgba(173,66,32,1);
+  opacity: 1;
+  position: absolute;
+  top: 1467px;
+  left: 1px;
+  overflow: hidden;
+}
+.evil_title {
+  width: 350px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1630px;
+  left: 360px;
+  font-family: 'Roboto Slab';
+  font-size: 45px;
+  line-height: 160%;
+  text-transform: uppercase;
+  opacity: 1;
+  text-align: left;
+}
+.evil_text_upper {
+  width: 350px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1724px;
+  left: 360px;
+  font-family: 'EB Garamond', serif;
+  font-weight: Regular;
+  font-size: 18px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.evil_text_lower {
+  width: 350px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1865px;
+  left: 360px;
+  font-family: 'EB Garamond', serif;
+  font-weight: Regular;
+  font-size: 18px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.evil_man_left {
+  width: 281px;
+  height: 324px;
+  background: url("img/evil_man.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1450px;
+  left: 1000px;
+  transform: rotate(-28deg);
+  overflow: hidden;
+}
+.evil_man_center {
+  width: 434px;
+  height: 500px;
+  background: url("img/evil_man.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1612px;
+  left: 1300px;
+  overflow: hidden;
+}
+.evil_man_right {
+  width: 341px;
+  height: 393px;
+  background: url("img/evil_man.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1450px;
+  left: 1650px;
+  transform: rotate(-126deg);
+  overflow: hidden;
+}
+.romantic_page {
+  width: 100%;
+  height: 648px;
+  background: rgba(254,250,251,1);
+  opacity: 1;
+  position: absolute;
+  top: 2115px;
+  left: 0px;
+  overflow: hidden;
+}
+.romantic_title {
+  width: 425px;
+  color: rgba(72,72,72,1);
+  position: absolute;
+  top: 2296px;
+  left: 300px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: Medium;
+  font-size: 30px;
+  line-height: 160%;
+  text-transform: uppercase;
+  opacity: 1;
+  text-align: left;
+}
+.romantic_text_upper {
+  width: 420px;
+  color: rgba(72,72,72,1);
+  position: absolute;
+  top: 2372px;
+  left: 300px;
+  font-family: 'Tinos', serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.romantic_text_lower {
+  width: 425px;
+  color: rgba(72,72,72,1);
+  position: absolute;
+  top: 2477px;
+  left: 300px;
+  font-family: 'Tinos', serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.romantic_branch_right {
+  width: 183.59px;
+  height: 321.19px;
+  left: 1750.94px;
+  top: 2060px;
+
+  background: url("img/romantic_branch_right.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(-138.24deg);
+}
+.romantic_branch_left {
+  width: 169px;
+  height: 296px;
+  background: url("img/romantic_branch_left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2490px;
+  left: -83px;
+  transform: rotate(-6deg);
+  overflow: hidden;
+}
+.business_page {
+  width: 100%;
+  height: 648px;
+  background: rgba(68,71,74,1);
+  opacity: 1;
+  position: absolute;
+  top: 2763px;
+  left: 0px;
+  overflow: hidden;
+}
+.business_title {
+  width: 320px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2923px;
+  left: 1000px;
+  font-family: 'Manrope', sans-serif;
+
+  font-size: 30px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.business_symbol {
+  width: 30px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3160px;
+  left: 1000px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.business_text_left {
+  width: 269px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3024px;
+  left: 1350px;
+  font-family: 'PT Serif', serif;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.business_text_right {
+  width: 269px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3024px;
+  left: 1000px;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.business_text_lower {
+  width: 492px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3198px;
+  left: 1040px;
+  font-family: 'PT Serif', serif;
+  font-weight: Italic;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 1;
+  text-align: left;
+}
+.romantic_image_right {
+  width: 247px;
+  height: 300px;
+  background: url("img/romantic_right.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2322px;
+  left: 1300px;
+  overflow: hidden;
+}
+.romantic_image_left {
+  width: 249px;
+  height: 300px;
+  background: url("img/romantic_left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2255px;
+  left: 970px;
+  overflow: hidden;
+}
+.business_image {
+  width: 588px;
+  height: 648px;
+  background: url("img/business_image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2763px;
+  left: 1px;
+  overflow: hidden;
+}
